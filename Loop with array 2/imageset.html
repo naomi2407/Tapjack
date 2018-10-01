@@ -1,0 +1,40 @@
+<html>
+
+<body>
+
+
+<body bgcolor=white background="dona1.jpg"
+<head>
+<script type="text/javascript">
+var image1 = new Image()
+image1.src = "https://ichef.bbci.co.uk/images/ic/976xn/p065w8j7.jpg"
+var image2 = new Image()
+image2.src = "https://keithpp.files.wordpress.com/2014/12/mc-escher-relativity.jpg"
+var image3= new Image()
+image3.src= "https://cdn.unifiedcommerce.com/content/product/large/1131RIC_L.jpg"
+var image4= new Image()
+image4.src= "https://keithpp.files.wordpress.com/2014/12/mc-escher-ascending-and-descending-1960.jpg"
+var image5= new Image()
+image5.src= "https://cdn.facilityexecutive.com/wp-content/uploads/stairs.jpg"
+</script>
+</head>
+<body>
+<p><img src="https://ichef.bbci.co.uk/images/ic/976xn/p065w8j7.jpg" width="800px" left:"250px" top:"120px" height="600" name="slide" /></p>
+<script type="text/javascript">
+        var step=1;
+        function slideit()
+        {
+            document.images.slide.src = eval("image"+step+".src");
+            if(step<5)
+                step++;
+            else
+                step=1;
+            setTimeout("slideit()",500);
+        }
+        slideit();
+</script>
+</body>>
+<center></center>
+</body>
+
+</html>
