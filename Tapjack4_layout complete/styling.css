@@ -1,0 +1,53 @@
+body {
+	background-color: black;
+}
+
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+h1{font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 32px;font-weight: bold;color:white; text-align: center;}
+
+.action{ font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 16px;font-weight:normal ;letter-spacing: 1px; color: white; margin-left: 15px; line-height: 150%;}
+
+.code { font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 12px;font-weight:normal ;letter-spacing: 1px; color: white; margin-left: 15px; line-height: 150%;}
+
+
+.body{ font-family: "Helvetica Neue", Helvetica, sans-serif;font-size: 12px;font-weight:normal ;letter-spacing: 1px; color: white; margin-left: 15px; line-height: 200%;}
+
+
+
+.MyButton {
+width: 400%;
+padding-left:20px;
+padding-right:20px;
+padding-top:10px;
+padding-bottom:10px;
+font-weight: bold;
+font-size: 16;
+background: #fff;
+color: #000000;
+text-align: center;
+border-radius: 5px;
+font-style: normal;
+font-family: "Helvetica Neue", Helvetica, sans-serif;
+float: center;
+margin-left: 15px;
+
+}
+.MyButton:hover {
+color: #fff;
+background: red;
+border-radius: 5px;
+}
+
+
+#horizontal-line{width: window; height: 1px; background-color: white; margin-left: 15px; margin-right: 10px;}
